@@ -48,6 +48,7 @@ namespace VueCliMiddleware
         }
 
 
+#if NETCOREAPP3_1
         public static IEndpointConventionBuilder MapToVueCliProxy(
             this IEndpointRouteBuilder endpoints,
             string pattern,
@@ -145,5 +146,6 @@ namespace VueCliMiddleware
 
             return app.Build();
         }
+#endif
     }
 }
