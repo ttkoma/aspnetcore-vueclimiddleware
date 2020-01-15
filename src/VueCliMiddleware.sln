@@ -1,4 +1,4 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28922.388
@@ -18,6 +18,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{E0AC4E37-9F26-4CAD-A3F9-10420CB0F9E7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VueCliSample", "..\samples\VueCliSample\VueCliSample.csproj", "{FBE4604B-BCF1-4220-8292-135193C95967}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VueCliFrameworkSample", "..\samples\VueCliFrameworkSample\VueCliFrameworkSample.csproj", "{A40A8C3C-5CBA-4EA3-803B-3099D13011C0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +42,10 @@ Global
 		{FBE4604B-BCF1-4220-8292-135193C95967}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FBE4604B-BCF1-4220-8292-135193C95967}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FBE4604B-BCF1-4220-8292-135193C95967}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A40A8C3C-5CBA-4EA3-803B-3099D13011C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A40A8C3C-5CBA-4EA3-803B-3099D13011C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A40A8C3C-5CBA-4EA3-803B-3099D13011C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A40A8C3C-5CBA-4EA3-803B-3099D13011C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,6 +53,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{9C672A02-413F-45CB-ACC7-E067561A40E0} = {E0AC4E37-9F26-4CAD-A3F9-10420CB0F9E7}
 		{FBE4604B-BCF1-4220-8292-135193C95967} = {E0AC4E37-9F26-4CAD-A3F9-10420CB0F9E7}
+		{A40A8C3C-5CBA-4EA3-803B-3099D13011C0} = {E0AC4E37-9F26-4CAD-A3F9-10420CB0F9E7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A9280CDC-FB96-4CF4-B48A-048A3355168A}
