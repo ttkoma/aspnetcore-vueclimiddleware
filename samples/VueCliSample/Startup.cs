@@ -60,10 +60,12 @@ namespace VueCliSample
                 // You could wrap this proxy in either
                 // if (System.Diagnostics.Debugger.IsAttached)
                 // or a preprocessor such as #if DEBUG
+                // or a environment is Development on runing with out backend debugging
+                // e.g. from vscode$ dotnet run {--environment development}
                 endpoints.MapToVueCliProxy(
                     "{*path}",
                     new SpaOptions { SourcePath = "ClientApp" },
-                    npmScript: (System.Diagnostics.Debugger.IsAttached) ? "serve" : null,
+                    npmScript: (env.IsDevelopment()) ? "serve" : null,
                     regex: "Compiled successfully",
                     forceKill: true
                     );
